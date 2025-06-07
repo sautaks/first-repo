@@ -35,7 +35,7 @@ Choose the appropriate license before using or distributing the template.
 ## 📧 Contact
 
 For licensing queries or support, contact:
-**your@email.com**
+**sautaks@email.com**
 
 ---
 
