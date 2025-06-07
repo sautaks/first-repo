@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us - First Node</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#feedback">Feedback</a></li>
+    </ul>
+</nav>
+
+<main class="contact-container">
+    <div class="contact-header">
+        <h1>Get in Touch</h1>
+        <p>We'd love to hear from you. Please fill out the form below or find our location on the map.</p>
+    </div>
+
+    <div class="contact-main">
+        <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="contact-info-container">
+            <h2>Our Location</h2>
+            <p>You can find our main office in Gandhinagar, the green capital of Gujarat.</p>
+
+            <div class="map-container">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117223.7937184291!2d72.59343368145743!3d23.223497554983827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b933477ba9f%3A0xe45016059333336!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1717737669457!5m2!1sen!2sin"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="contact-details">
+                <p><strong>Address:</strong> Gandhinagar, Gujarat, India</p>
+                <p><strong>Email:</strong> contact@firstnode.com</p>
+                <p><strong>Phone:</strong> +91 (123) 456-7890</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon" id="linkedin" aria-label="LinkedIn"></a>
+            <a href="https://github.com/yourprofile" target="_blank" class="social-icon" id="github" aria-label="GitHub"></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon" id="twitter" aria-label="Twitter"></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon" id="instagram" aria-label="Instagram"></a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon" id="facebook" aria-label="Facebook"></a>
+            <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-icon" id="youtube" aria-label="YouTube"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

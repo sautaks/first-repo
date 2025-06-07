@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>First Node - Learn Programming</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<!----navigation menu------->
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="index.html#feedback">Feedback</a></li>
+    </ul>
+</nav>
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <h1 class="fade-in">Welcome to First Node</h1>
+        <p class="fade-in delay-1">Empowering Students & Professionals to Learn Programming Languages</p>
+        <video class="intro-video fade-in delay-2" controls>
+            <source src="assets/intro-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="blogs">
+    <h2 class="section-title">Latest Blog Posts</h2>
+    <div class="blog-cards">
+        <div class="blog-card slide-in">
+            <img src="assets/images/blog1.png" alt="Blog 1" />
+            <h3>Understanding JavaScript Closures</h3>
+            <p>Delve into the concept of closures and how they are used in JavaScript.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" target="_blank" rel="noopener">Read More</a>
+        </div>
+        <div class="blog-card slide-in delay-1">
+            <img src="assets/images/blog2.png" alt="Blog 2" />
+            <h3>CSS Grid vs. Flexbox</h3>
+            <p>Compare CSS Grid and Flexbox to determine which layout system suits your needs.</p>
+            <a href="https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a" target="_blank" rel="noopener">Read More</a>
+        </div>
+
+        <div class="blog-card slide-in delay-2">
+            <img src="assets/images/blog3.png" alt="Blog 3" />
+            <h3>Getting Started with Python</h3>
+            <p>A beginner's guide to setting up and writing your first Python program.</p>
+            <a href="https://realpython.com/python-first-steps/" target="_blank" rel="noopener">Read More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Feedback Section -->
+<section id="feedback" class="feedback">
+    <h2 class="section-title">We Value Your Feedback</h2>
+    <form class="feedback-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Feedback" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon" id="linkedin" aria-label="LinkedIn"></a>
+            <a href="https://github.com/yourprofile" target="_blank" class="social-icon" id="github" aria-label="GitHub"></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon" id="twitter" aria-label="Twitter"></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon" id="instagram" aria-label="Instagram"></a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon" id="facebook" aria-label="Facebook"></a>
+            <a href="https://www.youtube.com/yourchannel" target="_blank" class="social-icon" id="youtube" aria-label="YouTube"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
