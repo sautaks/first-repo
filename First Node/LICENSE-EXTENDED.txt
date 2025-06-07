@@ -1,0 +1,12 @@
+LICENSE: EXTENDED USE
+
+You are allowed to:
+- Use this template in unlimited commercial projects.
+- Use in SaaS, CMS themes, or template resale with attribution.
+
+You are NOT allowed to:
+- Claim authorship or remove copyright.
+- Sell this item as a standalone product (it must be part of a service/product).
+
+Contact for exclusive or OEM licensing: your@email.com
+Copyright © 2025 Your Name. All rights reserved.
